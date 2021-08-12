@@ -1,0 +1,30 @@
+.card{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
+    height: 280px;
+    display: flex;
+    align-items: center ;
+
+}
+h3 {
+    text-align: center;
+    
+}
+img{
+    border-radius: 50%;
+    width: 80px;
+    
+}
+
+
+

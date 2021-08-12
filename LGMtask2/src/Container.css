@@ -1,0 +1,12 @@
+.container{
+    
+    width: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+
+}
