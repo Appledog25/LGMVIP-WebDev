@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: #474F5C; 
+  font-family: 'Oxygen', sans-serif;
+}
+
+.title {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 10;
+  text-shadow: 10px 10px 15px black;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: 80vh;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.login,
+.search {
+  padding: 25px;
+}
+
+
+input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  background-color: #203046;
+  color: rgb(240, 232, 232);
+  border: none;
+  font-size: 100%;
+  letter-spacing: 0.2em;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: rgb(236, 227, 227);
+  border: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #D5D3D9;
+  color: rgb(0, 0, 0);
+}
+
+fieldset {
+  font-size: 20px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+}
